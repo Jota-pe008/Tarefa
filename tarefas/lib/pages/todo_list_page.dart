@@ -32,7 +32,10 @@ class TodoListPage extends StatelessWidget {
                   ElevatedButton(
                     //botão de adicionar nova tarefa
                     onPressed: () {},
-                    child: Icon(Icons.add),
+                    child: Icon(
+                      Icons.add,
+                      size: 35,
+                      ),
                   ),
           
                 ],)
