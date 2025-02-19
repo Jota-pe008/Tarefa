@@ -29,16 +29,24 @@ class TodoListPage extends StatelessWidget {
                     ),
                     ),
                   ),
+                  SizedBox(width: 8,),
                   ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.purple,
+                      padding: EdgeInsets.all(10),
+                    ),
                     //botão de adicionar nova tarefa
                     onPressed: () {},
                     child: Icon(
                       Icons.add,
                       size: 35,
+                      color: Color.fromARGB(255, 0, 0, 0),
+
                       ),
                   ),
-          
-                ],)
+                ],),
+                Text('Você possui 0 tarefas')
+               
             ],
                 ),
         ),
